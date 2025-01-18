@@ -124,6 +124,21 @@
         .main-content {
             padding-top: 20px;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1em 0;
+        }
+        table, th, td {
+            border: 1px solid #fff;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: rgba(34, 34, 34, 0.8);
+        }
     </style>
 </head>
 <body>
@@ -212,8 +227,4 @@
             <p>Крафтинг в Rust позволяет игрокам создавать различные предметы, которые помогут им выжить в суровых условиях. Игроки могут создавать оружие, инструменты,
                броню и даже строить свои базы. Система крафтинга очень обширна и требует от игроков собирать ресурсы и изучать рецепты.</p>
             <div class="image-container">
-                <img src="https://cdn.discordapp.com/attachments/1275898985307181271/1330144274465161287/fP5L87x5POo.png?ex=678ce8e3&is=678b9763&hm=68d20332bb59687e0ac5a97139685666cf60e5fdca1a9b3870a28e8d60ffc482&" alt="Крафтинг в Rust">
-            </div>
-            <p>Крафтинг включает в себя создание различных предметов, таких как:</p>
-            <ul>
-                <li><strong>Оружие:</strong> Игроки могут создавать различные виды оружия, включая луки, арбалеты и огнестр
+                <img src="https://cdn.discordapp.com/attachments/1275898985307181271/1330144274465161287/fP5L87x5POo.png?ex=678ce8e3&is=678b9763&hm=68d20332bb59687e0ac5a97139685666cf60e5fdca1a9b3870a28
