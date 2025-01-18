@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <style>
         body {
-            background: url('https://cdn.discordapp.com/attachments/1314225469419294780/1330120080213934090/1625629126_18-kartinkin-com-p-rast-zadnii-fon-krasivie-foni-18.png?ex=678cd25b&is=678b80db&hm=7b1b58d248ce46f3807c23a48221d9a735b2058a4567b60b43ee5faaa6ec4ca1') no-repeat center center fixed;
+            background: url('https://cdn.discordapp.com/attachments/1314225469419294780/1330131442646388847/image.png?ex=678cdcf0&is=678b8b70&hm=dedd56087c729808020cb61c8e705b3dc64cbf61156f0514a4b142ad36ee1c2c') no-repeat center center fixed;
             background-size: cover;
             color: #fff;
             font-family: 'Fjalla One', Arial, sans-serif;
@@ -203,33 +203,17 @@
                 <li><strong>Пища:</strong> Включает мясо, ягоды и другие съедобные предметы.</li>
                 <li><strong>Вода:</strong> Необходима для выживания, может быть найдена в реках и озерах.</li>
             </ul>
+            <div class="image-container">
+                <img src="https://cdn.discordapp.com/attachments/1314225469419294780/1330107353160486934/image.png?ex=678cc681&is=678b7501&hm=ca5d62c144172afdc84304546757225d31fb94db7de49041216da6fe148de1fb&" alt="Ресурсы в Rust">
+            </div>
         </section>
         <section id="crafting" class="container">
             <h2>Крафтинг</h2>
             <p>Крафтинг в Rust позволяет игрокам создавать различные предметы, которые помогут им выжить в суровых условиях. Игроки могут создавать оружие, инструменты,
                броню и даже строить свои базы. Система крафтинга очень обширна и требует от игроков собирать ресурсы и изучать рецепты.</p>
-        </section>
-    </main>
-    <script>
-        function togglePanel() {
-            const panel = document.getElementById("sidePanel");
-            if (panel.style.width === "250px") {
-                panel.style.width = "0";
-            } else {
-                panel.style.width = "250px";
-            }
-        }
-
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
-</body>
-</html>
+            <div class="image-container">
+                <img src="https://cdn.discordapp.com/attachments/1275898985307181271/1330144274465161287/fP5L87x5POo.png?ex=678ce8e3&is=678b9763&hm=68d20332bb59687e0ac5a97139685666cf60e5fdca1a9b3870a28e8d60ffc482&" alt="Крафтинг в Rust">
+            </div>
+            <p>Крафтинг включает в себя создание различных предметов, таких как:</p>
+            <ul>
+                <li><strong>Оружие:</strong> Игроки могут создавать различные виды оружия, включая луки, арбалеты и огнестр
