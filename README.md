@@ -49,6 +49,7 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
             position: relative;
             z-index: 1;
+            margin-bottom: 2em;
         }
         h1, h2 {
             color: #ff0000;
@@ -123,27 +124,9 @@
         .main-content {
             padding-top: 20px;
         }
-        @keyframes gradient {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-        .animated-background {
-            background: linear-gradient(270deg, #ff0000, #f1c40f, #ff0000);
-            background-size: 400% 400%;
-            animation: gradient 15s ease infinite;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 0;
-            opacity: 0.5;
-        }
     </style>
 </head>
 <body>
-    <div class="animated-background"></div>
     <div class="hamburger" onclick="togglePanel()">
         <div class="line"></div>
         <div class="line"></div>
@@ -236,6 +219,17 @@
                 panel.style.width = "250px";
             }
         }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
     </script>
 </body>
 </html>
