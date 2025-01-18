@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rust Wiki</title>
+    <title>Rust – Вики о игре</title>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <style>
         body {
@@ -15,6 +15,7 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
+            scroll-behavior: smooth; /* Плавная прокрутка */
         }
         header {
             background-color: rgba(34, 34, 34, 0.9);
@@ -220,7 +221,7 @@
             <p>Крафтинг в Rust позволяет игрокам создавать различные предметы, которые помогут им выжить в суровых условиях. Игроки могут создавать оружие, инструменты,
                броню и даже строить свои базы. Система крафтинга очень обширна и требует от игроков собирать ресурсы и изучать рецепты.</p>
             <div class="image-container">
-                <img src="https://cdn.discordapp.com/attachments/1275898985307181271/1330144274465161287/fP5L87x5POo.png?ex=678ce8e3&is=678b9763&hm=68d20332bb59687e0ac5a97139685666cf60e5fdca1a9b3870a28e8d60ffc482&" alt="Крафтинг в Rust">
+                <img src="https://cdn.discordapp.com/attachments/1275898985307181271/1330144274465161287/fP5L87x5POo.png?ex=678ce8e3&is=678b9763&hm=68d20332bb59687e0ac5a97139685666cf60e5fdca1a9b3870a28e8d60ffc482&" alt="Крафт инг в Rust">
             </div>
             <p>Крафтинг включает в себя создание различных предметов, таких как инструменты, оружие и строительные материалы. Игроки могут комбинировать ресурсы для создания более сложных предметов, что позволяет им адаптироваться к различным условиям игры.</p>
         </section>
